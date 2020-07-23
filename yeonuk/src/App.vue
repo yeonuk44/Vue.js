@@ -8,10 +8,16 @@
 
 <script>
 import Header from '@/components/Header'
+import Create from '@/components/Create'
+import Detail from '@/components/Detail'
+import Read from '@/components/Read'
 export default {
   name: 'App',
   components: {
     Header,
+    Create,
+    Detail,
+    Read,
   }
 }
 </script>

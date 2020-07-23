@@ -1,15 +1,16 @@
 <template>
   <div>
     <b-navbar toggleable="lg" type="dark" variant="info">
-      <b-navbar-brand href="#">Vue.js로 게시판 만들기</b-navbar-brand>
+      <b-navbar-brand href="#">Studec</b-navbar-brand>
 
       <b-navbar-toggle target="nav_collapse"/>
 
       <b-collapse is-nav id="nav_collapse">
         <b-navbar-nav>
           <b-nav-item href="#">공지사항</b-nav-item>
-          <b-nav-item href="#">자유게시판</b-nav-item>
-          <b-nav-item href="#">구인구직</b-nav-item>
+          <b-nav-item href="#">연구자</b-nav-item>
+          <b-nav-item href="#">참가자</b-nav-item>
+          <b-nav-item href="#">대표 문항</b-nav-item>
         </b-navbar-nav>
       </b-collapse>
     </b-navbar>
