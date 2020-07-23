@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>뷰 기초 익히기</title>
+	<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+
+</head>
+<body>
+	<div id="app">
+		<input type="text" value='sex'>
+		{{nextYear()}}
+	</div>
+	<script>
+		new Vue({
+			el:'#app',
+			data:{
+				person : {
+					name : 'Hong',
+					age : 25
+				}
+			},
+			methods:{
+				nextYear(){
+					return this.person.name +'은 내년에'+(this.person.age+1)+'살 입니다';
+				}
+			}
+		})
+	</script>
+</body>
+</html>
