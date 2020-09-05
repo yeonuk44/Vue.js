@@ -26,4 +26,21 @@ Vue.js practice environment (with. yeonuk44, kwanmin08)
 ### Vue로 네이티브 모바일 앱 만드는 방법
 NativeScript로 만들 예정입니다.
 [Reference](https://vuejs-kr.github.io/vue/nativescript/2017/08/11/introduce-vue-nativescript-01/)
+
+### Vue CLI 설치 
+[Reference](https://cli.vuejs.org/guide/installation.html)
+
+### Vue 프로젝트 설치 옵션
+- Manually select features
+- Babel, Linter, Unit
+- Prettier
+- Lint on Save
+- Jest
+- In dedicated config files
+- n
+
+
 ## kwanmin08
+
+
+
