@@ -53,6 +53,9 @@ module.exports = {
 ### 코드 작성 규칙
 현 프로젝트는 prettier 를 사용하여 코드를 작성하여 정리한다.
 [Prettier 링크](https://prettier.io/)
+
+### ESLint 플러그인 설치 이후..
+vscode 설정에서 "format on save" 입력 이후 체크박스에서 체크 해제를 누른다.
 ## kwanmin08
 
 
