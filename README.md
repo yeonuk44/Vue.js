@@ -82,5 +82,19 @@ vscode 설정에서 "format on save" 입력 이후 체크박스에서 체크 해
 
 ## kwanmin08
 
+eslint - 자바스크립트 문법 보조 도구
 
+설정파일 변경 하면 ---> 서버 재실행 해야함
+
+eslint의 rules와 prettier가 충돌하기 때문에 eslint가 우선시 되어야 한다
+
+Prettier - 팀으로 개발할 때, 개행이라든지 코드를 표현하는 방법을 통일하기 위함(빨간줄로 표시를 해줌)
+
+ctrl + , -->설정 화면
+
+개발툴의 영향을 받지 않기 위해! 
+
+eslintrc에서 extends 는 node_modules에 있는 prettier 정보들을 가져온당
+
+절대경로 필요한 이유 -- 파일이 깊어질수록 경로가 넘 복잡해짐(상대경로) 
 
