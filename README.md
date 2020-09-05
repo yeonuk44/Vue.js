@@ -39,6 +39,16 @@ NativeScript로 만들 예정입니다.
 - In dedicated config files
 - n
 
+### CLI 설치 이후 ESLint 에러가 콘솔창에만 뜨고 앱에는 표시되지 않게 하는 방법
+vue.config.js 를 프로젝트 단위 폴더에 생성한 뒤 
+```
+module.exports = {
+    devServer: {
+        overlay: false
+    }
+};
+```
+입력한 뒤 저장한다.
 
 ## kwanmin08
 
