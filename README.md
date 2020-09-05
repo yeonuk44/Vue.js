@@ -56,6 +56,30 @@ module.exports = {
 
 ### ESLint 플러그인 설치 이후..
 vscode 설정에서 "format on save" 입력 이후 체크박스에서 체크 해제를 누른다.
+
+### VSCode를 활용한 파일의 절대 경로 찾기
+프로젝트 단위 폴더에 jsconfig.json 파일을 생성한 뒤 
+```
+{
+    "compilerOptions": {
+      "baseUrl": ".",
+      "paths": {
+        "~/*": [
+          "./*"
+        ],
+        "@/*": [
+          "./src/*" 
+        ],
+      }
+    },
+    "exclude": [
+      "node_modules",
+      "dist"
+    ]
+  }
+```
+를 입력한다. 이후 파일의 경로를 탐색 시 @를 기입하면 바로 src 로 이동한다.
+
 ## kwanmin08
 
 
