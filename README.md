@@ -50,6 +50,9 @@ module.exports = {
 ```
 입력한 뒤 저장한다.
 
+### 코드 작성 규칙
+현 프로젝트는 prettier 를 사용하여 코드를 작성하여 정리한다.
+[Prettier 링크](https://prettier.io/)
 ## kwanmin08
 
 
