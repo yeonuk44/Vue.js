@@ -96,5 +96,25 @@ ctrl + , -->설정 화면
 
 eslintrc에서 extends 는 node_modules에 있는 prettier 정보들을 가져온당
 
-절대경로 필요한 이유 -- 파일이 깊어질수록 경로가 넘 복잡해짐(상대경로) 
+절대경로 필요한 이유 -- 파일이 깊어질수록 경로가 넘 복잡해짐(상대경로)
+
+### 라우터 & 컴포넌트 
+
+Vue.use --> 플러그인 초기화 및 실행을 위한 코드
+
+export 로 파일을 밖으로 내보낼 수 있음
+
+code splitting - 싱글 페이지 에플리케이션 성능 향상 ( 초기에 로딩 x 필요할 때 로딩)
+
+redirect - 초기진입페이지 설정 하기
+
+mode : 'history' 추가하면 url의 #의 사라짐
+
+url에 #이 있는건 서버는 상관하지 않아 
+
+git checkout 2_router -f (브랜치 변환)
+
+
+-서버실행 npm run dev
+
 
