@@ -114,7 +114,27 @@ url에 #이 있는건 서버는 상관하지 않아
 
 git checkout 2_router -f (브랜치 변환)
 
+## 2020-09-14 공부 
 
 -서버실행 npm run dev
 
+vim - component 불러오기
 
+페이지 컴포넌트는 가급적 dry하게
+
+vda - 데이터 속성 빠르게 설정하기
+
+input들을 다 작성한 다음
+login 버튼을 누르면
+form에서 submitForm 이 수행이 된다
+.prevent를 쓰면 form의 기본동작인 제출, 새로고침을 막는다
+
+
+vue -typescript로 만든 개발툴
+
+submitform 을 비동기 처리를 해줘야 해(가입이 완료되었습니다 등의 부가적 기능을 위하여)
+
+input 정보 초기화
+initFrom(){
+this.~~~ =' ';
+}
