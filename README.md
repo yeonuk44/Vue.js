@@ -98,6 +98,13 @@ redirect:/bbs/list: 현재 서블릿 컨텍스트에 대한 상대적인 경로�
 redirect:http://host/bbs/list: 지정한 절대 URL로 리다이렉트
 ```
 
+### Back-End
+axios 웹 또는 앱을 개발하다 보면 거의 대부분이 서버가 필요하게 된다. 서버에 내용을 저장하고 웹이나 앱에서 서버의 저장된 내용을 불러다가 사용자에게 보여주게 된다. 이때 javascript에는 axios라는 아주 훌륭한 플러그인이 있다. axios는 javascript용 플러그인으로 많이 사용하지만 Vue.js에서도 매우 요긴하게 사용된다. axios는 Promise 기반의 자바스크립트 비동기 처리방식을 사용합니다. 그래서 요청후 .then()으로 결과값을 받아서 처리를 하는 형식으로 구성되어 있다.
+설치하는 법
+```
+npm install --save axios
+```
+
 ## kwanmin08
 
 eslint - 자바스크립트 문법 보조 도구
