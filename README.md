@@ -163,3 +163,39 @@ input 정보 초기화
 initFrom(){
 this.~~~ =' ';
 }
+
+## 2020-09-15 공부 
+
+const instance = axios.create({
+baseURL : 'http://~})
+
+-axios의 create 인스턴스를 변수로 할당가능
+
+.env 파일 (생성) 위치 : 루트
+-VUE_APP_변수명으로 env에 할당하면 다른곳에서 쓸수있음
+
+## 2020-09-23 공부 
+
+실제 앱 제작에서는 기능보다 에러를 잘 구현하는 것이 수준 높은 앱
+
+에러가 났을 때는 무조건 화면에 표시해줘야 함
+
+this.$router.push(); -->()안에 있는 주소가 더해진 URL로 이동
+
+1) loginform - login page - app - appheader (컴포넌트 통신 방식)
+
+2) loginfrom - appheader (이벤트버스)
+
+3) 뷰엑스 (스토어 방식) - 스트링 값을 store라는 통에 담아 놓고 app-header로 이동
+
+dependencies - npm run build 결과물 포함
+devdependencies - 미포함
+
+store 의 state는 여러 컴포넌트에서 공유되는 데이터
+
+
+this.$store.commit('setuername')
+
+상태변경된 값을 가져오는  getters -->return 값 가져옴 마치 computed
+html은 최대한 간단하게
+script단에있는걸 연결하는 방식
